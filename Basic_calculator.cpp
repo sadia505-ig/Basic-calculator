@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int a,b;
+    float a,b;
     char op;
     cin>>a>>op>>b;
     if(op=='+'){
@@ -20,3 +20,4 @@ int main() {
     }
     else cout<<"INVALID OPERATOR";
 }
+
